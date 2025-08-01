@@ -1,11 +1,8 @@
 # Cardiomyopathy Risk Prediction
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)]()
-
 ## Overview
 
-This repository contains code and data to develop and evaluate predictive models for cardiomyopathy risk. The project focuses on leveraging clinical, genetic, and treatment data to improve risk stratification in patients susceptible to cardiomyopathy.
+This repository contains code to develop and evaluate predictive models for cardiomyopathy risk. The project focuses on leveraging clinical, genetic, and treatment data to improve risk stratification in patients susceptible to cardiomyopathy.
 
 The analysis includes data preprocessing, feature engineering, model training, and evaluation. The models are implemented in Python using popular libraries such as `scikit-learn`, `pandas`, and `numpy`.
 
