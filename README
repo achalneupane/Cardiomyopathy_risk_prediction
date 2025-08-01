@@ -2,9 +2,6 @@
 
 ## Overview
 
-This repository contains code to develop and evaluate predictive models for cardiomyopathy risk. The project focuses on leveraging clinical, genetic, and treatment data to improve risk stratification in patients susceptible to cardiomyopathy.
+This repository contains code to develop and evaluate predictive models for CAD risk. The project focuses on leveraging clinical, genetic, and treatment data to improve risk stratification in patients susceptible to cardiomyopathy.
 
-The analysis includes data preprocessing, feature engineering, model training, and evaluation. The models are implemented in Python using popular libraries such as `scikit-learn`, `pandas`, and `numpy`.
-
-
-Citation: Petrykey K, Chen Y, Neupane A, French JN, Wang H, Xiang H, Dixon SB, Vukadinovich C, Im C, Ehrhardt MJ, Mulrooney DA, Sharafeldin N, Wang X, Howell RM, Jefferies JL, Burridge PW, Oeffinger KC, Gramatges MM, Bhatia S, Robison LL, Ness KK, Hudson MM, Chow EJ, Armstrong GT, Yasui Y, Sapkota Y. Predicting the 10-year risk of cardiomyopathy in long-term survivors of childhood cancer. Ann Oncol. 2025 Jun 4:S0923-7534(25)00768-9. doi: 10.1016/j.annonc.2025.05.539. Epub ahead of print. PMID: 40480553.
+The analysis includes data preprocessing, feature engineering, model training, and evaluation. 
