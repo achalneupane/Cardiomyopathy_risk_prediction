@@ -10,7 +10,7 @@ library(ggprism)
 library(patchwork)
 library(magrittr)
 
-setwd("C:/Users/jfrenc49/OneDrive - St. Jude Children's Research Hospital/Dyslipidemia")
+# setwd("C:/Users/aneupane/Dyslipidemia")
 
 
 fig2 <- data.frame(group=c("St. Jude Lifetime Cohort","St. Jude Lifetime Cohort",

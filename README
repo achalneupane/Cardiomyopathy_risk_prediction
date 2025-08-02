@@ -1,10 +1,22 @@
-# Cardiomyopathy Risk Prediction
+# Coronary Artery Disease Risk Prediction in Childhood Cancer Survivors
 
-## Overview
+This repository contains code to develop and validate a long-term coronary artery disease (CAD) risk prediction model in childhood cancer survivors, using clinical, treatment, and genetic data.
 
-This repository contains code to develop and evaluate predictive models for cardiomyopathy risk. The project focuses on leveraging clinical, genetic, and treatment data to improve risk stratification in patients susceptible to cardiomyopathy.
+## Background
 
-The analysis includes data preprocessing, feature engineering, model training, and evaluation. The models are implemented in Python using popular libraries such as `scikit-learn`, `pandas`, and `numpy`.
+Childhood cancer survivors face a 10-fold increased risk for CAD compared to the general population. Existing risk models often rely on self-reported outcomes and exclude genetic predisposition. This project addresses these limitations by integrating physician-adjudicated CAD outcomes and a multi-ancestry polygenic risk score (PRS).
 
+## Methods
 
-Citation: Petrykey K, Chen Y, Neupane A, French JN, Wang H, Xiang H, Dixon SB, Vukadinovich C, Im C, Ehrhardt MJ, Mulrooney DA, Sharafeldin N, Wang X, Howell RM, Jefferies JL, Burridge PW, Oeffinger KC, Gramatges MM, Bhatia S, Robison LL, Ness KK, Hudson MM, Chow EJ, Armstrong GT, Yasui Y, Sapkota Y. Predicting the 10-year risk of cardiomyopathy in long-term survivors of childhood cancer. Ann Oncol. 2025 Jun 4:S0923-7534(25)00768-9. doi: 10.1016/j.annonc.2025.05.539. Epub ahead of print. PMID: 40480553.
+We used data from two cohorts:
+
+- **St. Jude Lifetime Cohort (SJLIFE)** – Discovery cohort (*n* = 4,145)
+- **Childhood Cancer Survivor Study (CCSS)** – Validation cohort (*n* = 7,065)
+
+Predictors included:
+- **Demographics**: age, sex, ancestry
+- **Cancer treatment exposures**: cumulative anthracycline and chest radiation dose
+- **Cardiometabolic risk factors**: BMI, hypertension, diabetes, dyslipidemia, smoking
+- **Genetics**: multi-ancestry CAD PRS (PGS003725 from the [PGS Catalog](https://www.pgscatalog.org/score/PGS003725/))
+
+We used Cox proportional hazards regression to model the 25-year risk of CAD (CTCAE grade ≥3), selected predictors using elastic net regularization with 10-fold cross-validation, assessed model performance with time-dependent AUC, and estimated cumulative incidence of CAD by risk strata.
