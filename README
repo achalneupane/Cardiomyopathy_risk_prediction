@@ -21,21 +21,5 @@ Predictors included:
 - **Genetics**: multi-ancestry CAD PRS (PGS003725 from the [PGS Catalog](https://www.pgscatalog.org/score/PGS003725/))
 
 We used Cox proportional hazards regression to model the 25-year risk of CAD (CTCAE grade ≥3), selected predictors using elastic net regularization with 10-fold cross-validation, assessed model performance with time-dependent AUC, and estimated cumulative incidence of CAD by risk strata.
-
-
-## Methods
-
-We used data from two cohorts:
-
-- **St. Jude Lifetime Cohort (SJLIFE)** – Discovery cohort (*n* = 4,145)
-- **Childhood Cancer Survivor Study (CCSS)** – Validation cohort (*n* = 7,065)
-
-Predictors included:
-- **Demographics**: age, sex, ancestry
-- **Cancer treatment exposures**: cumulative anthracycline and chest radiation dose
-- **Cardiometabolic risk factors**: BMI, hypertension, diabetes, dyslipidemia, smoking
-- **Genetics**: multi-ancestry CAD PRS (PGS003725 from the [PGS Catalog](https://www.pgscatalog.org/score/PGS003725/))
-
-We used Cox proportional hazards regression to model the 25-year risk of CAD (CTCAE grade ≥3), selected predictors using elastic net regularization with 10-fold cross-validation, assessed model performance with time-dependent AUC, and estimated cumulative incidence of CAD by risk strata.
 =======
 
