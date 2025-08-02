@@ -5,7 +5,6 @@ This repository contains code to develop and validate a long-term coronary arter
 ## Background
 
 Childhood cancer survivors face a 10-fold increased risk for CAD compared to the general population. Existing risk models often rely on self-reported outcomes and exclude genetic predisposition. This project addresses these limitations by integrating physician-adjudicated CAD outcomes and a multi-ancestry polygenic risk score (PRS).
-<<<<<<< HEAD
 =======
 
 ## Methods
@@ -22,11 +21,10 @@ Predictors included:
 - **Genetics**: multi-ancestry CAD PRS (PGS003725 from the [PGS Catalog](https://www.pgscatalog.org/score/PGS003725/))
 
 We used Cox proportional hazards regression to model the 25-year risk of CAD (CTCAE grade ≥3), selected predictors using elastic net regularization with 10-fold cross-validation, assessed model performance with time-dependent AUC, and estimated cumulative incidence of CAD by risk strata.
->>>>>>> c7f1eace9f2cb6063e2df66631c718f6b20da5fe
+
 
 ## Methods
 
-<<<<<<< HEAD
 We used data from two cohorts:
 
 - **St. Jude Lifetime Cohort (SJLIFE)** – Discovery cohort (*n* = 4,145)
@@ -40,4 +38,4 @@ Predictors included:
 
 We used Cox proportional hazards regression to model the 25-year risk of CAD (CTCAE grade ≥3), selected predictors using elastic net regularization with 10-fold cross-validation, assessed model performance with time-dependent AUC, and estimated cumulative incidence of CAD by risk strata.
 =======
->>>>>>> c7f1eace9f2cb6063e2df66631c718f6b20da5fe
+
