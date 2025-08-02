@@ -1,3 +1,4 @@
+## CAD: STJUDE
 ## this code is to use censored date to re-run all the analysis for CAD models
 ## repeat the process: prediction_models_cv, select _cv, post_EN_cox, evaluation_prediction 
 ## time_to_mi should be changed throughout the entire analysis 
